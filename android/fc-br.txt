@@ -1,0 +1,23 @@
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.ppnative.MainApplication: java.lang.ClassNotFoundException: Didn't find class "com.ppnative.MainApplication" on path: DexPathList[[zip file "/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/lib/x86, /data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk!/lib/x86, /system/lib, /system/product/lib]]
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1226)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6431)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.ActivityThread.access$1300(ActivityThread.java:219)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1859)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:214)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.ppnative.MainApplication" on path: DexPathList[[zip file "/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/lib/x86, /data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk!/lib/x86, /system/lib, /system/product/lib]]
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:196)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:76)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:52)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1148)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1218)
+09-01 22:44:20.401 10907 10907 E AndroidRuntime: 	... 9 more
+09-01 22:44:20.404  2019  2331 I am_crash: [10907,0,com.ppnative,950550086,java.lang.ClassNotFoundException,Didn't find class "com.ppnative.MainApplication" on path: DexPathList[[zip file "/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/lib/x86, /data/app/com.ppnative-92FadjYmKHbEjV48lbMYdQ==/base.apk!/lib/x86, /system/lib, /system/product/lib]],BaseDexClassLoader.java,196]
+09-01 22:44:20.406  2019  2331 W ActivityTaskManager:   Force finishing activity com.ppnative/.MainActivity
+09-01 22:44:20.407  2019  2331 I am_finish_activity: [0,5585726,105,com.ppnative/.MainActivity,force-crash]
